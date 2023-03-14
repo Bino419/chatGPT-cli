@@ -52,5 +52,4 @@ All commands are stored in **.history** for your convience, just like bash you c
 You can simply type ***exit*** or use ***CTRL +C***
 
 ### Caveats
-
 Don't send ChatGPT just the word "test" via the API, you'll get a bunch of randomness spit back at you.
