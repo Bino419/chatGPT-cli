@@ -47,7 +47,7 @@ def cli():
                 response = processChatGPT(input_str, int(match.group(2)))
               else:
                 response = processChatGPT(input_str)
-                print("chatGPT(response)>")
+              print("chatGPT(response)>")
               for i, choice in enumerate(response.choices):
                 click.echo(f"\t{choice.text.strip()}")
         except KeyboardInterrupt:
