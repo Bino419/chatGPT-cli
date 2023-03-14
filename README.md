@@ -1,9 +1,24 @@
 # chatGPT-cli
 
 I just wanted a easy way to use ChatGPT, so I created this little CLI  
-After cloning this repository, you'll need to install the Python3 requirements  
+After cloning this repository, you'll need to install the Python3 and it's requirements  
 
-## Setup
+## Python3 OS Install
+
+Install Python3 for yum based distributions
+
+```console
+sudo yum install python3
+```
+
+Install Python3 for apt based distributions
+
+```console
+sudo apt install python3
+```
+## Python3 Package Installation
+
+Install Python3 requirements
 
 ```console
 foo@bar:~$ pip3 install -r "requirements.txt"
