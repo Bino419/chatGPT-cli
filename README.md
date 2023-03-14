@@ -51,6 +51,7 @@ I have the responses indented so it's easier to see what is coming back from Cha
 You can adjust the amount of results to return by passing this as a count to ChatGPT (note [] are required)
 
 ```console
+foo@bar:~$ ./chat.py
 chatGPT(input)> hello ChatGPT, are you recieving this? [5]
 chatGPT(response)>
         Yes, I am receiving this.
