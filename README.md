@@ -23,7 +23,7 @@ Execute the cli by running the following
 foo@bar:~$ ./chat.py
 ```
 
-Example of asking chatGPT a question
+Example of asking ChatGPT a question
 
 ```console
 foo@bar:~$ ./chat.py
