@@ -1,6 +1,6 @@
 # chatGPT-cli
 
-I just wanted a easy way to use chatGPT, so I created this little CLI  
+I just wanted a easy way to use ChatGPT, so I created this little CLI  
 After cloning this repository, you'll need to install the Python3 requirements  
 
 ## Setup
@@ -24,13 +24,16 @@ foo@bar:~$ ./chat.py
 ```
 
 Example of asking chatGPT a question
+
 ```console
 foo@bar:~$ ./chat.py
 chatGPT(input)> hello ChatGPT, are you recieving this?
 chatGPT(response)>
         Yes, I am recieving this.
+chatGPT(input)>
 ```
-You can adjust the amount of results to return by passing this as a count to chatGPT (note [] are required)
+I have the responses indented so it's easier to see what is coming back from ChatGPT 
+You can adjust the amount of results to return by passing this as a count to ChatGPT (note [] are required)
 
 ```console
 chatGPT(input)> hello ChatGPT, are you recieving this? [5]
@@ -50,4 +53,4 @@ You can simply type ***exit*** or use ***CTRL +C***
 
 ### Caveats
 
-Don't send chatGPT just the word "test" via the API, you'll get a bunch of randomness spit back at you.
+Don't send ChatGPT just the word "test" via the API, you'll get a bunch of randomness spit back at you.
