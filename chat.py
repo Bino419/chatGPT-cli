@@ -36,6 +36,8 @@ def cli():
             input_str = session.prompt("chatGPT(input)> ")
             if input_str == "exit":
               sys.exit(0)
+            elif input_str == "\q":
+              sys.exit(0)
             elif input_str == "test":
               print("No, this will bork chatGPT")
               next
